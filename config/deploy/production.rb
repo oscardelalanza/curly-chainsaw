@@ -1,3 +1,5 @@
+server '54.177.214.178', user: 'deploy', roles: %w{app db web}
+set :branch, 'feature/capistrano'
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
