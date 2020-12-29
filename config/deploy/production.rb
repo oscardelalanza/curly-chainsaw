@@ -1,4 +1,4 @@
-server '54.177.214.178', user: 'deploy', roles: %w{app db web}
+server '54.177.214.178', user: 'ubuntu', roles: %w{app db web}
 set :branch, 'feature/capistrano'
 # server-based syntax
 # ======================
